@@ -1,6 +1,6 @@
 # Ölümsüz Yılan Oyunu
 
-Basit bir yılan oyunu uygulaması. Bu versiyonda yılan ölmez!
+Basit bir yılan oyunu uygulaması. Bu versiyonda yılan ölmez
 
 ## Özellikler
 
@@ -26,3 +26,4 @@ Basit bir yılan oyunu uygulaması. Bu versiyonda yılan ölmez!
 ## Çalıştırma
 
 Herhangi bir sunucuya ihtiyaç yok, direkt olarak `index.html` dosyasını tarayıcıda açabilirsiniz.
+
