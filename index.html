@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ölümsüz Yılan Oyunu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #333;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        #score {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            border: 2px solid #fff;
+            background: #000;
+        }
+
+        .info {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ölümsüz Yılan Oyunu</h1>
+    <div id="score">Skor: 0</div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div class="info">
+        <p>Yön tuşları ile oyna</p>
+        <p>Bu yılan ölmez! Duvara veya kendine çarpsan bile oyun devam eder.</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
